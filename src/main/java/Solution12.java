@@ -21,7 +21,7 @@ public class Solution12 {
 
         end = principal * (1 + rate * years);
 
-        System.out.printf("After %d years at %.1f%%, the investment will be worth $%.2f", years, rate, end);
+        System.out.printf("After %d years at %.1f%%, the investment will be worth $%.2f", years, rate * 100, end);
 
     }
 }
